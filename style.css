@@ -935,6 +935,24 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   width: 100%;
 }
+.cs-project-badge {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ds-badge {
+  background: linear-gradient(135deg, #0d9488 0%, #0891b2 100%);
+}
+.cpb-abbr {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: rgba(255,255,255,.9);
+  letter-spacing: .04em;
+  font-family: var(--font-display);
+}
 .cs-creator-img {
   width: 100%;
   aspect-ratio: 1;
