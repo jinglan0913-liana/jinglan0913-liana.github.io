@@ -935,23 +935,32 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   position: relative;
   width: 100%;
 }
-.cs-project-badge {
+.cs-project-logo-card {
   width: 100%;
-  aspect-ratio: 1;
+  background: #f0f8f8;
   border-radius: var(--radius);
+  padding: 24px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid rgba(0,0,0,.06);
 }
-.ds-badge {
-  background: linear-gradient(135deg, #0d9488 0%, #0891b2 100%);
+.cs-project-logo-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.cpb-abbr {
-  font-size: 2.8rem;
-  font-weight: 800;
-  color: rgba(255,255,255,.9);
-  letter-spacing: .04em;
-  font-family: var(--font-display);
+.ds-gallery {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ds-gallery-img {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius);
+  border: 1px solid rgba(0,0,0,.07);
 }
 .cs-creator-img {
   width: 100%;
